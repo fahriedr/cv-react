@@ -20,11 +20,11 @@ export const RESUME_DATA = {
       Passionate backend developer with experience in Node.js, PHP, Larvel and databases. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
     </>
   ),
-  // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "hello@fahriedev.com",
-    // tel: "+48530213401",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -103,7 +103,7 @@ export const RESUME_DATA = {
     },
     {
       company: "PT Sigma Solusi Service",
-      // link: "https://clevertech.biz",
+      link: "",
       badges: ["Full Time"],
       title: "Network Engineer",
       start: "2019",
