@@ -9,59 +9,51 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Fahrie D. Ramadhan",
+  initials: "FDR",
+  location: "Jakarta, Indonesia, CET",
+  locationLink: "https://www.google.com/maps/place/Jakarta",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Passionate software developer to build efficient website, APIs and scalable architectures.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Passionate backend developer with experience in Node.js, PHP, Larvel and databases. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "hello@fahriedev.com",
+    // tel: "+48530213401",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/fahriedr",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/fahrie-dr/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universitas Pamulang",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2015",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "PT Ajita Indonesia",
+      link: "https://www.ajita.co.id/",
+      badges: ["Full Time"],
+      title: "Software Develover",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2022",
       end: null,
       description: (
         <>
@@ -84,20 +76,13 @@ export const RESUME_DATA = {
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
+      company: "PT Karya Digital Bersama",
+      link: "https://www.buatinwebsite.com/",
+      badges: ["Full Time"],
+      title: "Full Stack Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2020",
+      end: "2022",
       description: (
         <>
           Senior developer and squad leader for an enterprise agile meeting
@@ -119,13 +104,12 @@ export const RESUME_DATA = {
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "PT Sigma Solusi Service",
+      // link: "https://clevertech.biz",
+      badges: ["Full Time"],
+      title: "Network Engineer",
+      start: "2019",
+      end: "2020",
       description: (
         <>
           Successfully transitioned from mobile to full-stack development while
@@ -146,96 +130,62 @@ export const RESUME_DATA = {
           </ul>
         </>
       ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
+    }
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
+    "Vue/Nuxt",
     "TypeScript",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
     "WebSockets",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "PHP/Laravel",
+    "SQL",
+    "Docker"
   ],
   projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
+    // {
+    //   title: "Monito",
+    //   techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+    //   description:
+    //     "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "monito.dev",
+    //     href: "https://monito.dev/",
+    //   },
+    // },
+    // {
+    //   title: "Consultly",
+    //   techStack: [
+    //     "TypeScript",
+    //     "Next.js",
+    //     "Vite",
+    //     "GraphQL",
+    //     "WebRTC",
+    //     "Tailwind CSS",
+    //     "PostgreSQL",
+    //     "Redis",
+    //   ],
+    //   description:
+    //     "Platform for online consultations with real-time video meetings and scheduling",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "consultly.com",
+    //     href: "https://consultly.com/",
+    //   },
+    // },
+    // {
+    //   title: "Minimalist CV",
+    //   techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+    //   description:
+    //     "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "Minimalist CV",
+    //     href: "https://github.com/BartoszJarocki/cv",
+    //   },
+    // },
   ],
 } as const;
