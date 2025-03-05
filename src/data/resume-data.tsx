@@ -143,25 +143,23 @@ export const RESUME_DATA = {
     "Docker"
   ],
   projects: [
-    // {
-    //   title: "Monito",
-    //   techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-    //   description:
-    //     "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-    //   logo: MonitoLogo,
-    //   link: {
-    //     label: "monito.dev",
-    //     href: "https://monito.dev/",
-    //   },
-    // },
+    {
+      title: "Chat-Lite",
+      techStack: ["TypeScript", "Next.js", "MongoDB"],
+      description:
+        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+      logo: MonitoLogo,
+      link: {
+        label: "monito.dev",
+        href: "https://monito.dev/",
+      },
+    },
     // {
     //   title: "Consultly",
     //   techStack: [
     //     "TypeScript",
     //     "Next.js",
     //     "Vite",
-    //     "GraphQL",
-    //     "WebRTC",
     //     "Tailwind CSS",
     //     "PostgreSQL",
     //     "Redis",
