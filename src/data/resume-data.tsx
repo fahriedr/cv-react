@@ -20,7 +20,7 @@ export const RESUME_DATA = {
       Passionate backend developer with experience in Node.js, PHP, Larvel and databases. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "hello@fahriedev.com",
@@ -57,19 +57,17 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Rebuilding the application for the wifi management system, Retinad. And Migrating Enervon Web Page from CI to Laravel and Nuxt.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Architecting migration for Retinad from CI to Laravel 10.
             </li>
             <li>
               Established release process enabling faster deployments and
               reliable rollbacks
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Added unit testing to make easier the further development process.
             </li>
           </ul>
         </>
