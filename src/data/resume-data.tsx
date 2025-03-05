@@ -21,7 +21,7 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://cv.fahriedev.com/",
   contact: {
     email: "hello@fahriedev.com",
     tel: "",
@@ -151,7 +151,7 @@ export const RESUME_DATA = {
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
-        href: "https://monito.dev/",
+        href: "",
       },
     },
     // {
