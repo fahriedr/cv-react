@@ -17,7 +17,7 @@ export const RESUME_DATA = {
     "Passionate software developer to build efficient website, APIs and scalable architectures.",
   summary: (
     <>
-      Passionate backend developer with experience in Node.js, PHP, Larvel and databases. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
+      Passionate backend developer with experience in Node.js, PHP, Larvel, and Golang. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
     </>
   ),
   avatarUrl: "",
@@ -57,10 +57,10 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Rebuilding the application for the wifi management system, Retinad. And Migrating Enervon Web Page from CI to Laravel and Nuxt.
+          Rebuilding and maintaining the application for the wifi management system, Retinad. And Migrating Enervon Web Page from CI to Laravel and Nuxt.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration for Retinad from CI to Laravel 10.
+              Architecting migration for Retinad from CI to Laravel.
             </li>
             <li>
               Established release process enabling faster deployments and
@@ -78,24 +78,16 @@ export const RESUME_DATA = {
       link: "https://www.buatinwebsite.com/",
       badges: ["Full Time"],
       title: "Full Stack Developer",
-      logo: ParabolLogo,
       start: "2020",
       end: "2022",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Creating a catalog application for resellers using Next.js.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Mantaining and adding feature to CMS application for admin using Laravel and Vue.
             </li>
           </ul>
         </>
@@ -110,20 +102,18 @@ export const RESUME_DATA = {
       end: "2020",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Troubleshoot and fix internet problem that occur to customers.
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Collaborated with the Network Operation Center (NOC) team to detect and resolve network issues efficiently.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Conducted network performance analysis and capacity testing to ensure optimal service quality.
+            </li>
+            <li>
+              Provided technical support for corporate clients regarding Biznet’s network services.
             </li>
           </ul>
         </>
@@ -139,49 +129,21 @@ export const RESUME_DATA = {
     "Node.js",
     "GraphQL",
     "PHP/Laravel",
+    "Golang",
     "SQL",
     "Docker"
   ],
   projects: [
     {
-      title: "Chat-Lite",
-      techStack: ["TypeScript", "Next.js", "MongoDB"],
+      title: "Lite-Chat",
+      techStack: ["Golang", "React.js", "MongoDB"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A Whatsapp web app clone. Build using Golang, ReactJS, Tailwind, Docker and MongoDB",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "",
+        label: "lite-chat",
+        href: "https://lite-chat.fahriedev.web.id",
       },
     },
-    // {
-    //   title: "Consultly",
-    //   techStack: [
-    //     "TypeScript",
-    //     "Next.js",
-    //     "Vite",
-    //     "Tailwind CSS",
-    //     "PostgreSQL",
-    //     "Redis",
-    //   ],
-    //   description:
-    //     "Platform for online consultations with real-time video meetings and scheduling",
-    //   logo: ConsultlyLogo,
-    //   link: {
-    //     label: "consultly.com",
-    //     href: "https://consultly.com/",
-    //   },
-    // },
-    // {
-    //   title: "Minimalist CV",
-    //   techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-    //   description:
-    //     "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-    //   logo: MonitoLogo,
-    //   link: {
-    //     label: "Minimalist CV",
-    //     href: "https://github.com/BartoszJarocki/cv",
-    //   },
-    // },
   ],
 } as const;
