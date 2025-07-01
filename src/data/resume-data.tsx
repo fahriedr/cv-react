@@ -87,6 +87,9 @@ export const RESUME_DATA = {
               Creating a catalog application for resellers using Next.js.
             </li>
             <li>
+              Creating API for website and mobile appplication with Laravel.
+            </li>
+            <li>
               Mantaining and adding feature to CMS application for admin using Laravel and Vue.
             </li>
           </ul>
