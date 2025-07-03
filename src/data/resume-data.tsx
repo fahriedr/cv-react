@@ -138,6 +138,28 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Enervon-C",
+      techStack: ["Laravel, Nuxt"],
+      description:
+        "I developed the official Enervon-C website to deliver a seamless, high-performance experience that supports the brand's mission: helping Indonesians stay energized and healthy.",
+      logo: MonitoLogo,
+      link: {
+        label: "enervon-c",
+        href: "https://www.enervon.co.id/",
+      },
+    },
+    {
+      title: "Earthrun",
+      techStack: ["Laravel, Nuxt"],
+      description:
+        "EarthRun is an annual “Mandatalam Earth Run” event—a 5K/10K race in Bandung aimed at promoting environmental awareness and community wellness Participants support tree planting and run through eco-friendly routes designed around Green Race principles.",
+      logo: MonitoLogo,
+      link: {
+        label: "earthrun",
+        href: "https://www.earthrun.id/",
+      },
+    },
+    {
       title: "Lite-Chat",
       techStack: ["Golang", "React.js", "MongoDB"],
       description:
