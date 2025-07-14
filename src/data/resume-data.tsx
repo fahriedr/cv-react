@@ -17,13 +17,13 @@ export const RESUME_DATA = {
     "Passionate software developer to build efficient website, APIs and scalable architectures.",
   summary: (
     <>
-      Passionate backend developer with experience in Node.js, PHP, Larvel, and Golang. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
+      Passionate backend developer with experience in Node.js, PHP, Laravel, and Golang. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
     </>
   ),
   avatarUrl: "",
   personalWebsiteUrl: "https://cv.fahriedev.com/",
   contact: {
-    email: "hello@fahriedev.com",
+    email: "fahriramadhan234@gmail.com",
     tel: "",
     social: [
       {
