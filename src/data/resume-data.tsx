@@ -128,7 +128,6 @@ export const RESUME_DATA = {
     "Vue/Nuxt",
     "TypeScript",
     "Tailwind CSS",
-    "WebSockets",
     "Node.js",
     "GraphQL",
     "PHP/Laravel",
@@ -168,6 +167,17 @@ export const RESUME_DATA = {
       link: {
         label: "lite-chat",
         href: "https://lite-chat.fahriedev.web.id",
+      },
+    },
+    {
+      title: "Akademinur",
+      techStack: ["PHP", "CI 3", "MySql"],
+      description:
+        "Adding some feature and fixing some bug in a website for a learning murottal.",
+      logo: MonitoLogo,
+      link: {
+        label: "akademinur",
+        href: "https://akademinur.com/",
       },
     },
   ],
