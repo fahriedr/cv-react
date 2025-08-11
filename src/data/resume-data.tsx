@@ -180,5 +180,16 @@ export const RESUME_DATA = {
         href: "https://akademinur.com/",
       },
     },
+    {
+      title: "Lets Vote",
+      techStack: ["NextJs", "MongoDB", "TailwindCSS"],
+      description:
+        "A simple web app for voting online using NextJS",
+      logo: MonitoLogo,
+      link:{
+        label: "lets-vote",
+        href: "https://lets-vote.vercel.app/"
+      }
+    }
   ],
 } as const;
