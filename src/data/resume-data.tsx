@@ -9,7 +9,7 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Fahrie D. Ramadhan",
+  name: "Fahrie Dwiki Ramadhan",
   initials: "FDR",
   location: "Jakarta, Indonesia, CET",
   locationLink: "https://www.google.com/maps/place/Jakarta",
@@ -17,7 +17,12 @@ export const RESUME_DATA = {
     "Passionate software developer to build efficient website, APIs and scalable architectures.",
   summary: (
     <>
-      Passionate backend developer with experience in Node.js, PHP, Laravel, and Golang. I also have experience with Frontend framework like React and Vue. I build efficient APIs and scalable architectures.
+      Passionate and detail-oriented Backend Developer with experience building scalable
+      systems and efficient APIs using Node.js, PHP, Laravel, and Golang. Skilled in
+      integrating modern frontend technologies such as React, Vue, and Next.js. Adept at
+      improving system performance, designing architectures, implementing CI/CD
+      processes, and ensuring smooth deployments. Demonstrated ability to collaborate
+      across teams, optimize workflows, and deliver reliable software solutions.
     </>
   ),
   avatarUrl: "",
@@ -48,13 +53,37 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Tada",
+      link: "https://www.usetada.com/id/",
+      badges: ["Full Time"],
+      title: "Backend Developer",
+      logo: ConsultlyLogo,
+      start: "2025",
+      end: null,
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              Developed and implemented new features using Express.js to support client requirements.
+            </li>
+            <li>
+              Ensured application services ran reliably by monitoring system performance and availability using Grafana.
+            </li>
+            <li>
+              Reduced errors in the order feature by improving and refactoring code to enhance stability and accuracy.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
       company: "PT Ajita Indonesia",
       link: "https://www.ajita.co.id/",
       badges: ["Full Time"],
       title: "Backend Developer",
       logo: ConsultlyLogo,
       start: "2022",
-      end: null,
+      end: "2025",
       description: (
         <>
           Rebuilding and maintaining the application for the wifi management system, Retinad. And Migrating Enervon Web Page from CI to Laravel and Nuxt.
