@@ -21,8 +21,7 @@ export const RESUME_DATA = {
       systems and efficient APIs using Node.js, PHP, Laravel, and Golang. Skilled in
       integrating modern frontend technologies such as React, Vue, and Next.js. Adept at
       improving system performance, designing architectures, implementing CI/CD
-      processes, and ensuring smooth deployments. Demonstrated ability to collaborate
-      across teams, optimize workflows, and deliver reliable software solutions.
+      processes, and ensuring smooth deployments.
     </>
   ),
   avatarUrl: "",
@@ -58,7 +57,7 @@ export const RESUME_DATA = {
       badges: ["Full Time"],
       title: "Backend Developer",
       logo: ConsultlyLogo,
-      start: "2025",
+      start: "Sept 2025",
       end: null,
       description: (
         <>
@@ -82,8 +81,8 @@ export const RESUME_DATA = {
       badges: ["Full Time"],
       title: "Backend Developer",
       logo: ConsultlyLogo,
-      start: "2022",
-      end: "2025",
+      start: "Mei 2022",
+      end: "Aug 2025",
       description: (
         <>
           Rebuilding and maintaining the application for the wifi management system, Retinad. And Migrating Enervon Web Page from CI to Laravel and Nuxt.
@@ -107,8 +106,8 @@ export const RESUME_DATA = {
       link: "https://www.buatinwebsite.com/",
       badges: ["Full Time"],
       title: "Software Developer",
-      start: "2020",
-      end: "2022",
+      start: "Dec 2020",
+      end: "Mei 2022",
       description: (
         <>
           <ul className="list-inside list-disc">
@@ -130,8 +129,8 @@ export const RESUME_DATA = {
       link: "",
       badges: ["Full Time"],
       title: "Network Engineer",
-      start: "2019",
-      end: "2020",
+      start: "Sept 2019",
+      end: "April 2020",
       description: (
         <>
           <ul className="list-inside list-disc">
@@ -153,13 +152,15 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
-    "React/Next.js",
+    "React/Next",
     "Vue/Nuxt",
-    "TypeScript",
+    "TypeScript/Javascript",
     "Tailwind CSS",
     "Node.js",
+    "ExpressJS",
     "PHP/Laravel",
     "Golang",
+    "NoSQL",
     "SQL",
     "Docker"
   ],
