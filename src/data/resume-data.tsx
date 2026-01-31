@@ -17,11 +17,7 @@ export const RESUME_DATA = {
     "Passionate software developer to build efficient website, APIs and scalable architectures.",
   summary: (
     <>
-      Passionate and detail-oriented Backend Developer with experience building scalable
-      systems and efficient APIs using Node.js, PHP, Laravel, and Golang. Skilled in
-      integrating modern frontend technologies such as React, Vue, and Next.js. Adept at
-      improving system performance, designing architectures, implementing CI/CD
-      processes, and ensuring smooth deployments.
+      Backend Developer with 5+ years of experience building scalable systems and APIs using Node.js, PHP, Laravel, and Golang. Proven track record in system optimization, CI/CD implementation, and delivering reliable software solutions. 
     </>
   ),
   avatarUrl: "",
@@ -63,7 +59,7 @@ export const RESUME_DATA = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Developed and implemented new features using Express.js to support client requirements.
+              Collaborating with Product Team to developed and implemented new features using Express.js to support client requirements.
             </li>
             <li>
               Ensured application services ran reliably by monitoring system performance and availability using Grafana.
@@ -85,17 +81,15 @@ export const RESUME_DATA = {
       end: "Aug 2025",
       description: (
         <>
-          Rebuilding and maintaining the application for the wifi management system, Retinad. And Migrating Enervon Web Page from CI to Laravel and Nuxt.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration for Retinad from CI to Laravel.
+              Architecting migration from CI to Laravel, resulting in cleaner architecture and easier long-term maintenance
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Established release process enabling faster deployments and reliable rollbacks
             </li>
             <li>
-              Added unit testing to make easier the further development process.
+              Introduced unit testing practices that reduced regression risk and increased confidence in new feature development.
             </li>
           </ul>
         </>
@@ -112,13 +106,13 @@ export const RESUME_DATA = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Creating a catalog application for resellers using Next.js.
+              Built a reseller-facing catalog web application using Next.js to streamline product browsing and ordering.
             </li>
             <li>
-              Creating API for website and mobile appplication with Laravel.
+              Developed RESTful APIs for web and mobile applications using Laravel, supporting authentication, catalog, and transaction flows.
             </li>
             <li>
-              Mantaining and adding feature to CMS application for admin using Laravel and Vue.
+              Maintained and enhanced internal CMS features using Laravel and Vue.js for operational teams.
             </li>
           </ul>
         </>
@@ -135,10 +129,10 @@ export const RESUME_DATA = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Troubleshoot and fix internet problem that occur to customers.
+              Troubleshot and resolved customer internet connectivity issues with high SLA compliance.
             </li>
             <li>
-              Collaborated with the Network Operation Center (NOC) team to detect and resolve network issues efficiently.
+              Collaborated with NOC team to detect, analyze, and resolve network incidents efficiently.
             </li>
             <li>
               Conducted network performance analysis and capacity testing to ensure optimal service quality.
@@ -162,7 +156,9 @@ export const RESUME_DATA = {
     "Golang",
     "NoSQL",
     "SQL",
-    "Docker"
+    "Docker",
+    "Git",
+    "ElasticSearch"
   ],
   projects: [
     {
