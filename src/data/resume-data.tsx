@@ -17,7 +17,7 @@ export const RESUME_DATA = {
     "Passionate software developer to build efficient website, APIs and scalable architectures.",
   summary: (
     <>
-      Backend Developer with 5+ years of experience building scalable systems and APIs using Node.js, PHP, Laravel, and Golang. Proven track record in system optimization, CI/CD implementation, and delivering reliable software solutions. 
+      Backend Developer with 5+ years of experience building scalable systems and APIs using Node.js, PHP, Laravel, and Golang. 
     </>
   ),
   avatarUrl: "",
