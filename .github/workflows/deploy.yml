@@ -31,10 +31,10 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_KEY }}
           script: |
-            cd ../home/cv-react
+            cd /home/cv-react
             git pull origin main
             npm ci
             npm run build
-            rm -rf /../var/www/cv-react/*
-            cp -r out/* /../var/www/cv-react/
+            rm -rf /var/www/cv-react/*
+            cp -r out/* /var/www/cv-react/
             echo "Deployment completed successfully"

@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   location: "Jakarta, Indonesia, CET",
   locationLink: "https://www.google.com/maps/place/Jakarta",
   about:
-    "Passionate software developer to build efficient website, APIs and scalable architectures..",
+    "Passionate software developer to build efficient website, APIs and scalable architectures. Testing",
   summary: (
     <>
       Backend Developer with 5+ years of experience building scalable systems and APIs using Node.js, PHP, Laravel, and Golang. 
